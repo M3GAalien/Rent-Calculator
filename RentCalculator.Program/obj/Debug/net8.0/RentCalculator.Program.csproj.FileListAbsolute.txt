@@ -1,0 +1,14 @@
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\bin\Debug\net8.0\RentCalculator.Program.exe
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\bin\Debug\net8.0\RentCalculator.Program.deps.json
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\bin\Debug\net8.0\RentCalculator.Program.runtimeconfig.json
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\bin\Debug\net8.0\RentCalculator.Program.dll
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\bin\Debug\net8.0\RentCalculator.Program.pdb
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.AssemblyInfoInputs.cache
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.AssemblyInfo.cs
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.csproj.CoreCompileInputs.cache
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.dll
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\refint\RentCalculator.Program.dll
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.pdb
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.genruntimeconfig.cache
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\ref\RentCalculator.Program.dll
