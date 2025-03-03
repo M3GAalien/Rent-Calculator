@@ -103,3 +103,4 @@ c:\Program Files\Scripts\Code\RentCalculator\RentCalculator.UnitTests\obj\Debug\
 c:\Program Files\Scripts\Code\RentCalculator\RentCalculator.UnitTests\obj\Debug\net8.0\RentCalculator.UnitTests.pdb
 c:\Program Files\Scripts\Code\RentCalculator\RentCalculator.UnitTests\obj\Debug\net8.0\RentCalculator.UnitTests.genruntimeconfig.cache
 c:\Program Files\Scripts\Code\RentCalculator\RentCalculator.UnitTests\obj\Debug\net8.0\ref\RentCalculator.UnitTests.dll
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.UnitTests\obj\Debug\net8.0\RentCalculator.UnitTests.sourcelink.json

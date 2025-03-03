@@ -12,3 +12,4 @@ C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\ne
 C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.pdb
 C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.genruntimeconfig.cache
 C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\ref\RentCalculator.Program.dll
+C:\Program Files\Scripts\Code\RentCalculator\RentCalculator.Program\obj\Debug\net8.0\RentCalculator.Program.sourcelink.json

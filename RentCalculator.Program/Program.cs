@@ -24,7 +24,7 @@ public class Application {
                     }
                 }
             }
-            
+            /*
             // display result
             Console.WriteLine("\n\n==========###########========");
             Console.WriteLine($"Rent Total: ${rent}");
@@ -45,7 +45,7 @@ public class Application {
                 Console.WriteLine($"\nPersonal total: ${personalTotal + individualRent}");
             }
             Console.WriteLine("==========###########========\n\n");
-            
+            */
             
             // prompt to recalculate
             Console.Write("Would you like to use My Rent Calculator again?\n");
