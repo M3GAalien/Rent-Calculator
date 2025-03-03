@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RentCalculator.Program")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c5171519c612e24d934ae1c3b6969a4be91076d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a196c8326df4245610bf5ccad92b46b2eae1d408")]
 [assembly: System.Reflection.AssemblyProductAttribute("RentCalculator.Program")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RentCalculator.Program")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

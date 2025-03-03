@@ -8,37 +8,37 @@ namespace RentCalculator.UnitTests;
 
 public class UnitTest1
 {
-    // [Fact]
-    // public void MainTest1()
-    // {
-    //     // Arrange
-    //     StringReader input = new StringReader("1\n2\n1\n1\n0\n");
-    //     Console.SetIn(input);
-    //     StringWriter actualOutput = new StringWriter();
-    //     Console.SetOut(actualOutput);
-    //     string expectedOutput = "Welcome to My Rent Calculator!\r\n" + 
-    //                             "How much rent is due?\n" +
-    //                             ": " +
-    //                             "Would you like to use My Rent Calculator again?\n" +
-    //                             "1 - Yes | 0 - No\n" +
-    //                             ": " +
-    //                             "Please respond with a '1' or '0'\r\n" +
-    //                             "Would you like to use My Rent Calculator again?\n" +
-    //                             "1 - Yes | 0 - No\n" +
-    //                             ": " +
-    //                             "How much rent is due?\n" +
-    //                             ": " +
-    //                             "Would you like to use My Rent Calculator again?\n" +
-    //                             "1 - Yes | 0 - No\n" +
-    //                             ": " +
-    //                             "Thank you for using My Rent Calculator!\r\n";
+    /* [Fact]
+    public void MainTest1()
+    {
+        // Arrange
+        StringReader input = new StringReader("1\n2\n1\n1\n0\n");
+        Console.SetIn(input);
+        StringWriter actualOutput = new StringWriter();
+        Console.SetOut(actualOutput);
+        string expectedOutput = "Welcome to My Rent Calculator!\r\n" + 
+                                "How much rent is due?\n" +
+                                ": " +
+                                "Would you like to use My Rent Calculator again?\n" +
+                                "1 - Yes | 0 - No\n" +
+                                ": " +
+                                "Please respond with a '1' or '0'\r\n" +
+                                "Would you like to use My Rent Calculator again?\n" +
+                                "1 - Yes | 0 - No\n" +
+                                ": " +
+                                "How much rent is due?\n" +
+                                ": " +
+                                "Would you like to use My Rent Calculator again?\n" +
+                                "1 - Yes | 0 - No\n" +
+                                ": " +
+                                "Thank you for using My Rent Calculator!\r\n";
 
-    //     // Act
-    //     Application.Main();
+        // Act
+        Application.Main();
 
-    //     // Assert
-    //     Assert.Equal(expectedOutput, actualOutput.ToString());
-    // }
+        // Assert
+        Assert.Equal(expectedOutput, actualOutput.ToString());
+    } */
 
     [Theory]
     [InlineData(1)]

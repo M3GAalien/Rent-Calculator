@@ -10,7 +10,7 @@ public class Application {
             Console.Write("How much rent is due?\n: ");
             int rent = getNumber();
 
-            // how many people are paying for rent
+            #region how many people are paying for rent
             List<Person> listOfPeople = getPeoplePayingRent();
             
             if(listOfPeople.Count > 1){
@@ -24,31 +24,15 @@ public class Application {
                     }
                 }
             }
-            /*
-            // display result
-            Console.WriteLine("\n\n==========###########========");
-            Console.WriteLine($"Rent Total: ${rent}");
-            foreach(Person person in listOfPeople){
-                Console.WriteLine(person);
-            }
-            Console.WriteLine($"\nIndividual Fees = \t\t\t${totalIndividualFees}");
-            int remainingRent = rent - totalIndividualFees;
-            Console.WriteLine($"Rent - All Individual Fees = \t\t${remainingRent}");
-            int individualRent = remainingRent/listOfPeople.Count;
-            Console.WriteLine($"Remaining Rent / People Paying Rent = \t${individualRent}");
-            foreach(Person person in listOfPeople){
-                Console.Write(person);
-                int personalTotal = 0;
-                foreach(int fee in person.fees.Values){
-                    personalTotal += fee;
-                }
-                Console.WriteLine($"\nPersonal total: ${personalTotal + individualRent}");
-            }
-            Console.WriteLine("==========###########========\n\n");
-            */
+            #endregion
             
-            // prompt to recalculate
+            #region display result
+            displayResults(rent, listOfPeople);
+            #endregion
+            
+            #region prompt to recalculate
             Console.Write("Would you like to use My Rent Calculator again?\n");
+            #endregion
         } while (getBinaryAnswer());
         // exit program
         Console.WriteLine("Thank you for using My Rent Calculator!");
@@ -92,25 +76,13 @@ public class Application {
         }while(number < 1);
 
         for(int i = 0; i < number; i++){
-            string ordinal = (i + 1).ToString();
-            switch(i + 1){
-                case 1: {
-                    ordinal+="st";
-                    break;
-                }
-                case 2:{
-                    ordinal+="nd";
-                    break;
-                }
-                case 3:{
-                    ordinal+="rd";
-                    break;
-                }
-                default:{
-                    ordinal+="th";
-                    break;
-                }
-            }
+            string ordinal = (i + 1) switch{
+                1 => "1st",
+                2 => "2nd",
+                3 => "3rd",
+                _ => $"{i + 1}th"
+            };
+            
             Console.Write($"What is the name of the {ordinal} person?\n: ");
             listOfPeople.Add(new Person(Console.ReadLine()));
         }
@@ -133,5 +105,32 @@ public class Application {
             
         }
         return listOfPeople;
+    }
+
+    public static void displayResults(int rent, List<Person> listOfPeople){
+        Console.WriteLine("\n\n==========###########========");
+        Console.WriteLine($"Rent Total: ${rent}");
+        int totalIndividualFees = 0;
+        foreach(Person person in listOfPeople){
+            Console.WriteLine(person);
+            foreach(var fee in person.fees){
+                totalIndividualFees += fee.Value;
+            }
+        }
+
+        Console.WriteLine($"\nIndividual Fees = \t\t\t${totalIndividualFees}");
+        int remainingRent = rent - totalIndividualFees;
+        Console.WriteLine($"Rent - All Individual Fees = \t\t${remainingRent}");
+        int individualRent = remainingRent/listOfPeople.Count;
+        Console.WriteLine($"Remaining Rent / People Paying Rent = \t${individualRent}");
+        foreach(Person person in listOfPeople){
+            Console.Write(person);
+            int personalTotal = 0;
+            foreach(int fee in person.fees.Values){
+                personalTotal += fee;
+            }
+            Console.WriteLine($"\nPersonal total: ${personalTotal + individualRent}");
+        }
+        Console.WriteLine("==========###########========\n\n");
     }
 }
