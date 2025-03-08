@@ -1,10 +1,18 @@
+using System.Text.Json.Serialization;
+
 namespace RentCalculator.Program;
 
 public class Person
 {
+    [JsonInclude]
     public string? name = "No name";
+    [JsonInclude]
     public Dictionary<string,int> fees;
 
+    public Person(){
+        this.name = "ERROR: No Name Found";
+        fees = new Dictionary<string, int>();
+    }
     public Person(string? name){
         this.name = name;
         fees = new Dictionary<string, int>();
@@ -21,8 +29,8 @@ public class Person
     }
 
     public override string ToString() {
-        string result = $"\n----{name}----";
-        foreach(KeyValuePair<string, int> fee in fees){
+        string result = $"\n--------{name}--------";
+        foreach(var fee in fees){
             result += $"\n${fee.Value} - {fee.Key}";
         }
         return result;
